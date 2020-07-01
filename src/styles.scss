@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+html {
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%;
+  transition: none;
+}
+body {
+  transition: none;
+  font-size: 1.6rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fdfdfd;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+  transition: all 0.08s linear;
+}
+
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none inside;
+}
+
+
+* {
+  scrollbar-color: #7f7f7f white; /* thumb and track color */
+  scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar {
+  width: 7.5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #7f7f7f;
+  border-right: 1px solid white;
+}
