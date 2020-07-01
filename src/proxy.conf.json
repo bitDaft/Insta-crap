@@ -1,0 +1,6 @@
+{
+  "/test.php": {
+      "target": "http://cookbookrecipes.in",
+      "secure": false
+  }
+}
