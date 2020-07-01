@@ -1,7 +1,7 @@
 [[redirects]]
   from = "https://affectionate-shirley-d173d0.netlify.app/test.php"
   to = "http://cookbookrecipes.in/test.php"
-  status = 
+  status = 200
   
 [[redirects]]
   from = "/*"
