@@ -7,7 +7,7 @@ export const environment = {
   postUrl:
     'https://hiit.ria.rocks/videos_api/cdn/com.rstream.crafts?versionCode=40&lurl=Canvas%20painting%20ideas',
   commentsUrl: 'http://cookbookrecipes.in/test.php',
-  commentsUrlD: 'http://localhost:4200/test.php',
+  commentsUrlD: 'https://affectionate-shirley-d173d0.netlify.app//test.php',
 };
 
 /*
