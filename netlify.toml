@@ -1,4 +1,4 @@
 [[redirects]]
-  from = "test.php"
+  from = "/test.php"
   to = "http://cookbookrecipes.in"
   status = 200
