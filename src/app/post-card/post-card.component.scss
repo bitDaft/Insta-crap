@@ -24,9 +24,16 @@
       }
     }
     & > span {
-      cursor: pointer;
-      font-weight: bold;
-      margin-right: 10px;
+      &.name {
+        font-weight: bold;
+        margin-right: auto;
+        margin-left: 10px;
+      }
+      &.menu {
+        cursor: pointer;
+        font-weight: bold;
+        margin-right: 10px;
+      }
     }
   }
   & > .img {
