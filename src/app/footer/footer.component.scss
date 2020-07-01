@@ -1,0 +1,43 @@
+.footer {
+  height: 54px;
+  // background-color: #f4f4f4;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 12px -9px black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  & > ul {
+    height: 100%;
+    width: 400px;
+    max-width: 400px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 0 12px;
+    & > li {
+      font-size: 2.2rem;
+      cursor: pointer;
+      & > a {
+        &:active,
+        &:link,
+        &:visited {
+          color: black;
+        }
+      }
+      &.title {
+        margin-left: 20px;
+        font-size: 2.6rem;
+        font-weight: bold;
+        cursor: default;
+      }
+      &:last-child {
+        margin-left: auto;
+      }
+    }
+  }
+}
