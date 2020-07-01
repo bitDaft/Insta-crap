@@ -1,0 +1,40 @@
+<div class="post-card">
+  <div class="head">
+    <div>
+      <img [src]="post['low thumbnail']" alt="dp" />
+    </div>
+    <span><i class="fas fa-ellipsis-v"></i></span>
+  </div>
+  <div class="img">
+    <img [src]="post['high thumbnail']" alt="some rando image" />
+  </div>
+  <div class="icon-bar">
+    <span><i class="far fa-heart"></i></span>
+    <span><i class="far fa-comment"></i></span>
+    <span><i class="far fa-paper-plane"></i></span>
+    <span (click)="toggleBookmark()">
+      <i *ngIf="!bookmarked" class="far fa-bookmark"></i>
+      <i *ngIf="bookmarked" class="fas fa-bookmark"></i>
+    </span>
+  </div>
+  <div class="desc">
+    <span class="title">
+      {{ dummyTitle }}
+    </span>
+    <span
+      class="toggle"
+      *ngIf="post.title.length > 50"
+      (click)="toggleTitleShow()"
+    >
+      {{ showFullTitle ? "less" : "more" }}
+    </span>
+  </div>
+  <div class="comments">
+    <ul>
+      <li *ngFor="let comment of post.comments">
+        <h4>{{ comment.username }}</h4>
+        <p>{{ comment.comments }}</p>
+      </li>
+    </ul>
+  </div>
+</div>
