@@ -1,0 +1,14 @@
+.posts {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+  background-color: #fbfbfb;
+  padding-top: 104px;
+  padding-bottom: 50px;
+  & > ul {
+    display: inline;
+    & > li {
+      display: inline;
+    }
+  }
+}
